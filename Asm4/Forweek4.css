@@ -1,0 +1,998 @@
+#gridheadpic
+{
+    
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: #E1D5F0;
+    
+}
+.centerpic
+{
+    text-align: center;
+}
+
+#gridheadpic > div >img
+{ 
+    width: 95%;
+}
+/*----------------------------------------------*/
+
+#gridheadtext
+{
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: #FAF3DC;
+    grid-template-rows: 80px;
+}
+#gridheadtext>h1
+{
+    color: rgb(204, 140, 38);
+    text-align: center;
+}
+/*----------------------------------------------*/
+
+#gridforingredient
+{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 60px;
+    grid-row-gap: 10px ;
+}
+
+#headIngredient
+{
+    text-align: center;
+    background-color: #FEF4A5;
+    grid-column: 1/span 3;
+    color: rgb(224, 160, 58);
+}
+#In1
+{
+    grid-area: 2/1/2/1;
+    background-color: #B0D9CD;
+    text-align: center;
+    padding-top: 10px;
+}
+#In2
+{
+    grid-area: 3/1/3/1;
+    background-color: #F2D4D2;
+    text-align: center;
+    padding-top: 10px;
+}
+#In3
+{
+    grid-area: 4/1/4/1;
+    background-color: #B0D9CD;
+    text-align: center;
+    padding-top: 10px;
+}
+#In4
+{
+    grid-area: 5/1/5/1;
+    background-color: #F2D4D2;
+    text-align: center;
+    padding-top: 10px;
+}
+#In5
+{
+    grid-area: 6/1/6/1;
+    background-color: #B0D9CD;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#Inpic
+{
+    grid-row: 2/7;
+    grid-column: 2 / span 1;
+    text-align: center;
+}
+#Inpic > img{
+    width: 500px;
+    height: 550px;
+    
+
+}
+#In6
+{
+    grid-area: 2/3/2/3;
+    background-color: #F2D4D2;
+    text-align: center;
+    padding-top: 10px;
+}
+#In7
+{
+    grid-area: 3/3/3/3;
+    background-color: #B0D9CD;
+    text-align: center;
+    padding-top: 10px;
+}
+#In8
+{
+    grid-area: 4/3/4/3;
+    background-color: #F2D4D2;
+    text-align: center;
+    padding-top: 10px;
+}
+#In9
+{
+    grid-area: 5/3/5/3;
+    background-color: #B0D9CD;
+    text-align: center;
+    padding-top: 10px;
+}
+#In10
+{
+    grid-area: 6/3/6/3;
+    background-color: #F2D4D2;
+    text-align: center;
+    padding-top: 10px;
+}
+/*----------------------------------------------*/
+
+#gridforstep
+{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 60px;
+    grid-row-gap: 10px ;
+}
+
+#headstep
+{
+    text-align: center;
+    background-color: #FEF4A5;
+    grid-column: 1/span 2;
+    color: rgb(224, 160, 58);
+}
+#gridforstep> div > img {
+    width: 50%;
+}
+#steppic1
+{
+    grid-area: 2/1/2/1;
+    text-align: center;
+    background-color: #F2D4D2;
+}
+#step1
+{
+    grid-area: 2/2/2/2;
+    text-align: center;
+    background-color: #E1D5F0;
+    padding-top: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#steppic2
+{
+    grid-area: 3/1/3/1;
+    text-align: center;
+    background-color: #E1D5F0;
+}
+#step2
+{
+    grid-area: 3/2/3/2;
+    text-align: center;
+    background-color: #F2D4D2;
+    padding-top: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#steppic3
+{
+    grid-area: 4/1/4/1;
+    text-align: center;
+    background-color: #F2D4D2;
+}
+#step3
+{
+    grid-area: 4/2/4/2;
+    text-align: center;
+    background-color: #E1D5F0;
+    padding-top: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#steppic4
+{
+    grid-area: 5/1/5/1;
+    text-align: center;
+    background-color: #E1D5F0;
+}
+#step4
+{
+    grid-area: 5/2/5/2;
+    text-align: center;
+    background-color: #F2D4D2;
+    padding-top: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#steppic5
+{
+    grid-area: 6/1/6/1;
+    text-align: center;
+    background-color: #F2D4D2;
+}
+#step5
+{
+    grid-area: 6/2/6/2;
+    text-align: center;
+    background-color: #E1D5F0;
+    padding-top: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#steppic6
+{
+    grid-area: 7/1/7/1;
+    text-align: center;
+    background-color: #E1D5F0;
+}
+#step6
+{
+    grid-area: 7/2/7/2;
+    text-align: center;
+    background-color: #F2D4D2;
+    padding-top: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#steppic7
+{
+    grid-area: 8/1/8/1;
+    text-align: center;
+    background-color: #F2D4D2;
+}
+#step7
+{
+    grid-area: 8/2/8/2;
+    text-align: center;
+    background-color: #E1D5F0;
+    padding-top: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#steppic8
+{
+    grid-area: 9/1/9/1;
+    text-align: center;
+    background-color: #E1D5F0;
+}
+#step8
+{
+    grid-area: 9/2/9/2;
+    text-align: center;
+    background-color: #F2D4D2;
+    padding-top: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/*----------------------------------------------*/
+
+#gridforAfter
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 60px;
+    grid-row-gap: 10px ;
+    grid-column-gap: 5px ;
+}
+#headAfter
+{
+    text-align: center;
+    background-color: #FEF4A5;
+    grid-column: 1/span 3;
+    color: rgb(224, 160, 58);
+}
+#gridforAfter>div>img
+{
+    width:400px;
+    height: 650px;
+   
+}
+#Afterpic1
+{
+    grid-area: 2/1/2/1;
+    text-align: center;
+    background-color: #B0D9CD;
+}
+#Afterpic2
+{
+    grid-area: 2/2/2/2;
+    text-align: center;
+    background-color: #E1D5F0;
+}#Afterpic3
+{
+    grid-area: 2/3/2/3;
+    text-align: center;
+    background-color: #B0D9CD;
+}
+/*----------------------------------------------*/
+
+#gridforend
+{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 60px;
+}
+#headend
+{
+    text-align: center;
+    background-color: #FAF3DC;
+    grid-column: 1/span 1;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 1300px)
+{
+    #gridheadpic
+{
+    
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: #E1D5F0;
+    
+}
+.centerpic
+{
+    text-align: center;
+}
+
+#gridheadpic > div >img
+{ 
+    width: 95%;
+}
+/*----------------------------------------------*/
+
+#gridheadtext
+{
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: #FAF3DC;
+    grid-template-rows: 120px;
+}
+#gridheadtext>h1
+{
+    color: rgb(204, 140, 38);
+    text-align: center;
+    margin-bottom: 10px;
+}
+/*----------------------------------------------*/
+
+#gridforingredient
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 60px;
+    grid-row-gap: 10px ;
+    grid-column-gap: 5px ;
+}
+
+#headIngredient
+{
+    text-align: center;
+    background-color: #FEF4A5;
+    grid-column: 1/span 2;
+    color: rgb(224, 160, 58);
+}
+#In1
+{
+    grid-area: 3/1/3/1;
+    background-color: #B0D9CD;
+    text-align: center;
+    padding-top: 10px;
+}
+#In2
+{
+    grid-area: 4/1/4/1;
+    background-color: #F2D4D2;
+    text-align: center;
+    padding-top: 10px;
+}
+#In3
+{
+    grid-area: 5/1/5/1;
+    background-color: #B0D9CD;
+    text-align: center;
+    padding-top: 10px;
+}
+#In4
+{
+    grid-area: 6/1/6/1;
+    background-color: #F2D4D2;
+    text-align: center;
+    padding-top: 10px;
+}
+#In5
+{
+    grid-area: 7/1/7/1;
+    background-color: #B0D9CD;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#Inpic
+{
+    grid-area: 2/1/2/2;
+    text-align: center;
+}
+#Inpic > img{
+    width: 500px;
+    height: 550px;
+    
+
+}
+#In6
+{
+    grid-area: 3/2/3/2;
+    background-color: #F2D4D2;
+    text-align: center;
+    padding-top: 10px;
+}
+#In7
+{
+    grid-area: 4/2/4/2;
+    background-color: #B0D9CD;
+    text-align: center;
+    padding-top: 10px;
+}
+#In8
+{
+    grid-area: 5/2/5/2;
+    background-color: #F2D4D2;
+    text-align: center;
+    padding-top: 10px;
+}
+#In9
+{
+    grid-area: 6/2/6/2;
+    background-color: #B0D9CD;
+    text-align: center;
+    padding-top: 10px;
+}
+#In10
+{
+    grid-area: 7/2/7/2;
+    background-color: #F2D4D2;
+    text-align: center;
+    padding-top: 10px;
+}
+/*----------------------------------------------*/
+
+#gridforstep
+{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 60px;
+    grid-row-gap: 10px ;
+}
+
+#headstep
+{
+    text-align: center;
+    background-color: #FEF4A5;
+    grid-column: 1/span 2;
+    color: rgb(224, 160, 58);
+}
+#gridforstep> div > img {
+    padding-top: 20px;
+    width: 100%;
+}
+#steppic1
+{
+    grid-area: 2/1/2/1;
+    text-align: center;
+    background-color: #F2D4D2;
+}
+#step1
+{
+    grid-area: 2/2/2/2;
+    text-align: center;
+    background-color: #E1D5F0;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#steppic2
+{
+    grid-area: 3/1/3/1;
+    text-align: center;
+    background-color: #E1D5F0;
+}
+#step2
+{
+    grid-area: 3/2/3/2;
+    text-align: center;
+    background-color: #F2D4D2;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#steppic3
+{
+    grid-area: 4/1/4/1;
+    text-align: center;
+    background-color: #F2D4D2;
+}
+#step3
+{
+    grid-area: 4/2/4/2;
+    text-align: center;
+    background-color: #E1D5F0;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#steppic4
+{
+    grid-area: 5/1/5/1;
+    text-align: center;
+    background-color: #E1D5F0;
+}
+#step4
+{
+    grid-area: 5/2/5/2;
+    text-align: center;
+    background-color: #F2D4D2;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#steppic5
+{
+    grid-area: 6/1/6/1;
+    text-align: center;
+    background-color: #F2D4D2;
+}
+#step5
+{
+    grid-area: 6/2/6/2;
+    text-align: center;
+    background-color: #E1D5F0;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#steppic6
+{
+    grid-area: 7/1/7/1;
+    text-align: center;
+    background-color: #E1D5F0;
+}
+#step6
+{
+    grid-area: 7/2/7/2;
+    text-align: center;
+    background-color: #F2D4D2;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#steppic7
+{
+    grid-area: 8/1/8/1;
+    text-align: center;
+    background-color: #F2D4D2;
+}
+#step7
+{
+    grid-area: 8/2/8/2;
+    text-align: center;
+    background-color: #E1D5F0;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#steppic8
+{
+    grid-area: 9/1/9/1;
+    text-align: center;
+    background-color: #E1D5F0;
+}
+#step8
+{
+    grid-area: 9/2/9/2;
+    text-align: center;
+    background-color: #F2D4D2;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/*----------------------------------------------*/
+
+#gridforAfter
+{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 60px;
+}
+#headAfter
+{
+    text-align: center;
+    background-color: #FEF4A5;
+    grid-column: 1/span 1;
+    color: rgb(224, 160, 58);
+}
+#gridforAfter>div>img
+{
+    width:400px;
+    height: 650px;
+   
+}
+#Afterpic1
+{
+    grid-area: 2/1/2/1;
+    text-align: center;
+    background-color: #B0D9CD;
+}
+#Afterpic2
+{
+    grid-area: 3/1/3/1;
+    text-align: center;
+    background-color: #E1D5F0;
+}#Afterpic3
+{
+    grid-area: 4/1/4/1;
+    text-align: center;
+    background-color: #B0D9CD;
+}
+/*----------------------------------------------*/
+
+#gridforend
+{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 60px;
+}
+#headend
+{
+    text-align: center;
+    background-color: #695e3a;
+    color: rgb(231, 224, 178);
+    grid-column: 1/span 1;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 700px)
+{
+    #gridheadpic
+{
+    
+    display: grid;
+    grid-template-columns:  auto 90% auto;
+    background-color: #E1D5F0;
+    
+}
+.centerpic
+{
+    text-align: center;
+    grid-area: 1/2/1/3;
+}
+
+#gridheadpic > div >img
+{ 
+    width: 95%;
+}
+/*----------------------------------------------*/
+
+#gridheadtext
+{
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: #FAF3DC;
+    grid-template-rows: 120px;
+}
+#gridheadtext>h1
+{
+    color: rgb(204, 140, 38);
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+/*----------------------------------------------*/
+
+#gridforingredient
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 60px;
+    grid-row-gap: 10px ;
+    grid-column-gap: 5px ;
+}
+
+#headIngredient
+{
+    text-align: center;
+    background-color: #FEF4A5;
+    grid-column: 1/span 2;
+    color: rgb(224, 160, 58);
+}
+#In1
+{
+    grid-area: 3/1/3/1;
+    background-color: #B0D9CD;
+    text-align: center;
+    padding-top: 10px;
+}
+#In2
+{
+    grid-area: 4/1/4/1;
+    background-color: #F2D4D2;
+    text-align: center;
+    padding-top: 10px;
+}
+#In3
+{
+    grid-area: 5/1/5/1;
+    background-color: #B0D9CD;
+    text-align: center;
+    padding-top: 10px;
+}
+#In4
+{
+    grid-area: 6/1/6/1;
+    background-color: #F2D4D2;
+    text-align: center;
+    padding-top: 10px;
+}
+#In5
+{
+    grid-area: 7/1/7/1;
+    background-color: #B0D9CD;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#Inpic
+{
+    grid-area: 2/1/2/2;
+    text-align: center;
+}
+#Inpic > img{
+    width: 500px;
+    height: 550px;
+    
+
+}
+#In6
+{
+    grid-area: 3/2/3/2;
+    background-color: #F2D4D2;
+    text-align: center;
+    padding-top: 10px;
+}
+#In7
+{
+    grid-area: 4/2/4/2;
+    background-color: #B0D9CD;
+    text-align: center;
+    padding-top: 10px;
+}
+#In8
+{
+    grid-area: 5/2/5/2;
+    background-color: #F2D4D2;
+    text-align: center;
+    padding-top: 10px;
+}
+#In9
+{
+    grid-area: 6/2/6/2;
+    background-color: #B0D9CD;
+    text-align: center;
+    padding-top: 10px;
+}
+#In10
+{
+    grid-area: 7/2/7/2;
+    background-color: #F2D4D2;
+    text-align: center;
+    padding-top: 10px;
+}
+/*----------------------------------------------*/
+
+#gridforstep
+{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 60px;
+    grid-row-gap: 10px ;
+}
+
+#headstep
+{
+    text-align: center;
+    background-color: #FEF4A5;
+    grid-column: 1/span 1;
+    color: rgb(224, 160, 58);
+}
+#gridforstep> div > img {
+    padding-top: 20px;
+    width: 100%;
+}
+#steppic1
+{
+    grid-area: 2/1/2/1;
+    text-align: center;
+    background-color: #F2D4D2;
+}
+#step1
+{
+    grid-area: 3/1/3/1;
+    text-align: center;
+    background-color: #E1D5F0;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#steppic2
+{
+    grid-area: 4/1/4/1;
+    text-align: center;
+    background-color: #E1D5F0;
+}
+#step2
+{
+    grid-area: 5/1/5/1;
+    text-align: center;
+    background-color: #F2D4D2;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#steppic3
+{
+    grid-area: 6/1/6/1;
+    text-align: center;
+    background-color: #F2D4D2;
+}
+#step3
+{
+    grid-area: 7/1/7/1;
+    text-align: center;
+    background-color: #E1D5F0;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#steppic4
+{
+    grid-area: 8/1/8/1;
+    text-align: center;
+    background-color: #E1D5F0;
+}
+#step4
+{
+    grid-area: 9/1/9/1;
+    text-align: center;
+    background-color: #F2D4D2;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#steppic5
+{
+    grid-area: 10/1/10/1;
+    text-align: center;
+    background-color: #F2D4D2;
+}
+#step5
+{
+    grid-area: 11/1/11/1;
+    text-align: center;
+    background-color: #E1D5F0;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#steppic6
+{
+    grid-area: 12/1/12/1;
+    text-align: center;
+    background-color: #E1D5F0;
+}
+#step6
+{
+    grid-area: 13/1/13/1;
+    text-align: center;
+    background-color: #F2D4D2;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#steppic7
+{
+    grid-area: 14/1/14/1;
+    text-align: center;
+    background-color: #F2D4D2;
+}
+#step7
+{
+    grid-area: 15/1/15/1;
+    text-align: center;
+    background-color: #E1D5F0;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#steppic8
+{
+    grid-area: 16/1/16/1;
+    text-align: center;
+    background-color: #E1D5F0;
+}
+#step8
+{
+    grid-area: 17/1/17/1;
+    text-align: center;
+    background-color: #F2D4D2;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/*----------------------------------------------*/
+
+#gridforAfter
+{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 60px;
+}
+#headAfter
+{
+    text-align: center;
+    background-color: #FEF4A5;
+    grid-column: 1/span 1;
+    color: rgb(224, 160, 58);
+}
+#gridforAfter>div>img
+{
+    width:400px;
+    height: 650px;
+   
+}
+#Afterpic1
+{
+    grid-area: 2/1/2/1;
+    text-align: center;
+    background-color: #B0D9CD;
+}
+#Afterpic2
+{
+    grid-area: 3/1/3/1;
+    text-align: center;
+    background-color: #E1D5F0;
+}#Afterpic3
+{
+    grid-area: 4/1/4/1;
+    text-align: center;
+    background-color: #B0D9CD;
+}
+/*----------------------------------------------*/
+
+#gridforend
+{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 60px;
+}
+#headend
+{
+    text-align: center;
+    background-color: #695e3a;
+    color: rgb(231, 224, 178);
+    grid-column: 1/span 1;
+}
+
+
+
+
+    
+}
+
+
+
+
+    
+}

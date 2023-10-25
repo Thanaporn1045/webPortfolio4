@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Post it!</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='decweek5.css'>
+	<script src='week5js.js'></script>
+</head>
+<body>
+<div class="divgrid">
+
+    <div class="header1"> <h1>Post it!</h1></div>
+    <div class="header2"> <h1>TOPIC : </h1></div>     
+    <div id="Fortopic"> <h2 id="Topic1"></h2></div>  
+
+    <div class="header3"> <h1>COMMENT : </h1></div> 
+    <div id="ForComment1"> <h3 id="Comment1"></h3></div>
+    <div id="ForComment2"> <h3 id="Comment2"></h3> </div>
+</div>
+
+<div class="forpost">
+    <textarea id ="textinput"> Type your content here. </textarea> <br>
+    <button id="Green" onclick="Postit()"> Post </button>
+    <button id="Red" onclick="Clearit()"> clear</button>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+.divgrid{
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+form
+{
+    text-align: center;
+    background-color:#a7dbf0;
+    grid-column: 2/span1;
+    padding-top: 250px;
+}
+
+img
+{
+    width: 1000px;
+    height: 760px;
+
+    grid-column: 1/span1;
+}
+legend
+{
+   font-size: 40px;
+   font-weight: bold;
+   background-color: #04ADBF;
+   color: azure;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+#errormsg
+{
+    color: red;
+}
+
+#Green{
+    background-color: #77aa30;
+}
+#Red{
+    background-color: #F27244;
+}
+p
+{
+    background-color: #0e7985;
+    color:white;
+    text-align: right;
+}
